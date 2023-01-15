@@ -12,3 +12,10 @@ jobs:
     - name: Install dependencies
       run: |
         make install
+    - name: link
+      - run: |
+        make link
+    - name: test
+        make test
+    -name :format
+        make format
