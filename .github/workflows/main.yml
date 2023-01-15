@@ -17,5 +17,5 @@ jobs:
         make link
     - name: test
         make test
-    -name :format
+    - name: format
         make format
